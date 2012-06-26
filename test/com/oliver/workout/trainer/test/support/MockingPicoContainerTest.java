@@ -21,19 +21,19 @@ public class MockingPicoContainerTest {
 	}
 
 	@Test
-	public void exploration() throws Exception {
+	public void single_arg_ctor() throws Exception {
 		MockingPicoContainer<ToBeMocked1> autoMocked = new MockingPicoContainer<ToBeMocked1>(delegate, context, ToBeMocked1.class);
 		assertSame(delegate.getComponent(Mock1.class),autoMocked.sut.arg1);
 	}
 	
 	@Test
-	public void exploration2() throws Exception {
+	public void two_arg_ctor_greedy() throws Exception {
 		MockingPicoContainer<ToBeMocked2> autoMocked = new MockingPicoContainer<ToBeMocked2>(delegate, context, ToBeMocked2.class);
 		assertSame(delegate.getComponent(Mock1.class),autoMocked.sut.arg1);
 		assertSame(delegate.getComponent(Mock2.class),autoMocked.sut.arg2);
 	}	
 	@Test
-	public void exploration3() throws Exception {
+	public void three_arg_ctor_greedy() throws Exception {
 		MockingPicoContainer<ToBeMocked3> autoMocked = new MockingPicoContainer<ToBeMocked3>(delegate, context, ToBeMocked3.class);
 		assertSame(delegate.getComponent(Mock1.class),autoMocked.sut.arg1);
 		assertSame(delegate.getComponent(Mock2.class),autoMocked.sut.arg2);
