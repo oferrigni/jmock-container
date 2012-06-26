@@ -18,10 +18,6 @@ public class MockingPicoContainer<M> extends
 	public final Mockery context;
 	public M sut;
 
-	public MockingPicoContainer() {
-		this(new DefaultPicoContainer(new Caching()), new Mockery());
-	}
-
 	public MockingPicoContainer(Class<M> sutClazz)  {
 		this(new DefaultPicoContainer(new Caching()), new Mockery(), sutClazz);
 	}
