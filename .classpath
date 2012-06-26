@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="test"/>
-	<classpathentry kind="lib" path="lib/picocontainer-2.9-javadoc.jar"/>
-	<classpathentry kind="lib" path="lib/picocontainer-2.9-sources.jar"/>
-	<classpathentry kind="lib" path="lib/picocontainer-2.9.jar" sourcepath="lib/picocontainer-2.9-sources.jar"/>
-	<classpathentry kind="lib" path="test-libs/bsh-core-2.0b4.jar"/>
-	<classpathentry kind="lib" path="test-libs/cglib-nodep-2.2.jar"/>
-	<classpathentry kind="lib" path="test-libs/cglib-src-2.2.jar"/>
-	<classpathentry kind="lib" path="test-libs/hamcrest-core-1.2RC2.jar"/>
-	<classpathentry kind="lib" path="test-libs/hamcrest-library-1.2RC2.jar"/>
-	<classpathentry kind="lib" path="test-libs/jmock-2.6.0-RC1.jar"/>
-	<classpathentry kind="lib" path="test-libs/jmock-junit3-2.6.0-RC1.jar"/>
-	<classpathentry kind="lib" path="test-libs/jmock-junit4-2.6.0-RC1.jar"/>
-	<classpathentry kind="lib" path="test-libs/jmock-legacy-2.6.0-RC1.jar"/>
-	<classpathentry kind="lib" path="test-libs/jmock-script-2.6.0-RC1.jar"/>
-	<classpathentry kind="lib" path="test-libs/objenesis-1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/picocontainer-2.9-javadoc.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/picocontainer-2.9-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/picocontainer-2.9.jar" sourcepath="lib/picocontainer-2.9-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="test-libs/bsh-core-2.0b4.jar"/>
+	<classpathentry exported="true" kind="lib" path="test-libs/cglib-nodep-2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="test-libs/cglib-src-2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="test-libs/hamcrest-core-1.2RC2.jar"/>
+	<classpathentry exported="true" kind="lib" path="test-libs/hamcrest-library-1.2RC2.jar"/>
+	<classpathentry exported="true" kind="lib" path="test-libs/jmock-2.6.0-RC1.jar"/>
+	<classpathentry exported="true" kind="lib" path="test-libs/jmock-junit3-2.6.0-RC1.jar"/>
+	<classpathentry exported="true" kind="lib" path="test-libs/jmock-junit4-2.6.0-RC1.jar"/>
+	<classpathentry exported="true" kind="lib" path="test-libs/jmock-legacy-2.6.0-RC1.jar"/>
+	<classpathentry exported="true" kind="lib" path="test-libs/jmock-script-2.6.0-RC1.jar"/>
+	<classpathentry exported="true" kind="lib" path="test-libs/objenesis-1.0.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
