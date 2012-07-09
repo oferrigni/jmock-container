@@ -1,4 +1,4 @@
-package com.oliver.workout.trainer.test.support;
+package org.jmock.autocontainer;
 
 import static org.junit.Assert.*;
 

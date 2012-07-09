@@ -1,4 +1,4 @@
-package com.oliver.workout.trainer.test.support;
+package org.jmock.autocontainer;
 
 import java.lang.reflect.Constructor;
 import java.util.ArrayList;
