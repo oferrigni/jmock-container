@@ -3,7 +3,7 @@
 
 <p>This container provides a relatively easy way to instantiate classes
 where all dependencies are satisfied with their jmock mocked values.
-This allows for faster writing of unit tests reflecting an development
+This allows for faster writing of unit tests reflecting a development
 environment where an IOC container is being used</p>
 
 <p>While any mocking framework could have been used, jmock was selected
