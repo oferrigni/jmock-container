@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+task hello {
+    doLast {
+        println 'Hello world!'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+  compile "org.jmock:jmock:2.6.0-RC2", "org.picocontainer:picocontainer-parent:2.9"
+}
