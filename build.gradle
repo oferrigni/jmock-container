@@ -6,5 +6,6 @@ repositories {
 }
 
 dependencies {
-  compile 'org.jmock:jmock:2.6.0-RC2', 'org.picocontainer:picocontainer:2.14.1'
+  compile 'org.jmock:jmock:2.6.0-RC2', 'org.picocontainer:picocontainer:2.14.1', 'org.jmock:jmock-legacy:2.6.0-RC2'
+  testCompile 'junit:junit:4.10'
 }
