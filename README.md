@@ -10,5 +10,5 @@ environment where an IOC container is being used</p>
 by the author.  Future contributions could provide support for other
 mocking frameworks</p>
 
-<p>For documentation on http://jmock.org</p>
+For documentation on jmock go to http://jmock.org
 
