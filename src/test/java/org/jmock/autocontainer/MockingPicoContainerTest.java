@@ -43,7 +43,7 @@ public class MockingPicoContainerTest {
 	public void verify() throws Exception {
 		final MockingPicoContainer<Foo1> autoMocked = new MockingPicoContainer<Foo1>(delegate, context, Foo1.class);
 		assertSame(delegate.getComponent(Mock1.class),autoMocked.sut.arg1);
-		autoMocked.checking(new Expectations(){{ one(autoMocked.get(Mock1.class)).baz();}});
+		autoMocked.checking(new Expectations(){{ oneOf(autoMocked.get(Mock1.class)).baz();}});
 		autoMocked.sut.bar();
 		autoMocked.verify();
 	}
